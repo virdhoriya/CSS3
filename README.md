@@ -1,3 +1,5 @@
+# 👋 Hi, I’m @virdhoriya
+
 # CSS ON NEXT LEVEL
 
 ## here is the list of vs code extension i will be using
@@ -36,3 +38,53 @@ In CSS, selectors determine which elements the styles apply to. When multiple ru
   margin-right: auto;
   margin-left: auto;
 }
+
+## list of new html elements i have laern in this section
+
+<section></section>
+<blockquote></blockquote>
+<figure></figure>
+
+
+## for choosing the color for website
+
+
+[open colors](https://yeun.github.io/open-color/)
+
+[flat ui colors](https://flatuicolors.com/)
+
+[Tailwind css](https://tailwindcss.com/docs/customizing-colors)
+
+[For Checking Contrast of Colors](https://coolors.co/contrast-checker/495057-ffffff)
+
+## For Good Quality Images
+
+[Unsplash](https://unsplash.com/)
+
+[Pexels](https://www.pexels.com/)
+
+[Drawkit](https://www.drawkit.com/)
+
+[UnDraw](https://www.google.com)
+
+## For Compressing Image Size
+
+[Squoosh](https://squoosh.app/)
+
+## Tools For Icons
+
+[Phosphor icons](https://phosphoricons.com/)
+
+[ionicons](https://ionic.io/ionicons/v4)
+
+[icons8](https://icons8.com/icons)
+
+[Heroicons](https://heroicons.com/)
+
+## websites for reference
+
+[Land book](https://land-book.com/)
+
+[awwwards](https://www.awwwards.com/)
+
+[OnePageLove](https://onepagelove.com/)
