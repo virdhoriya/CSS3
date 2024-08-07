@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HeroSection Component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-family: "Rubik", sans-serif;
+        color: #fff;
+      }
+      .container {
+        width: 1200px;
+        margin: 0 auto;
+      }
+      header {
+        /* background-color: yellow; */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/hero.jpg);
+        /* background-image:linear-gradient(red, blue); */
+        background-size: cover;      
+        height: 100vh;
+        position: relative;
+      }
+      .header-container {
+        width: 1200px;
+        position: absolute;
+
+        /* IN RELATION TO THE PARENT ELEMENT */
+        left: 50%;
+        top: 50%;
+        /* background-color: red; */
+
+        /* IN RELATION TO THE ELEMENT */
+        transform: translate(-50%, -50%);
+      }
+      .header-container-inner {
+        width: 50%;
+        /* background-color: cyan; */
+      }
+      nav {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        /* background-color: cyan; */
+        /* background-image: linear-gradient(to right,red, blue); */
+        padding-top: 32px;
+      }
+      h1 {
+        font-size: 52px;
+        margin-bottom: 32px;
+        line-height: 1.2;
+      }
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+      }
+      .btn:link,
+      .btn:visited {
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #e67e22;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        padding: 16px 32px;
+        border-radius: 9px;
+      }
+      h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
+      }
+      section {
+        padding: 96px 0;
+        /* background-color: yellow; */
+        background-color: #f7f7f7;
+      }
+      .section-container {
+        color: #444;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div>LOGO</div>
+        <div>NAVIGATION</div>
+      </nav>
+
+      <div class="header-container">
+        <div class="header-container-inner">
+          <h1>A healthy mean delivered to you door, every single day</h1>
+          <p>
+            The samrt 365-days-per-year subscription that will make you eat
+            healthy algain, Tailored to your personal tastes and nutritional
+            needs
+          </p>
+          <a href="#" class="btn">Start Eating Well</a>
+        </div>
+      </div>
+    </header>
+    <section class="section-container">
+      <div class="container">
+        <h2>Some random hading</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+          quaerat quas maxime mollitia voluptatem soluta libero fugit vitae,
+          ipsam laudantium natus ducimus, voluptatum nobis similique sequi magni
+          explicabo dolorem? Facere? Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Vel nulla aliquam quam maiores magnam molestias
+          voluptates ullam tenetur, mollitia blanditiis soluta commodi, tempore
+          esse quia, architecto molestiae assumenda eum? Odio.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
