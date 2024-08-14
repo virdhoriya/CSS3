@@ -11,6 +11,8 @@
   /* because we want header to be sticky later*/
   height: 9.6rem;
   padding: 0 4.8rem;
+
+  position: relative;
 }
 .logo {
   height: 2.2rem;
@@ -24,7 +26,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 .main-nav-link:link,
 .main-nav-link:visited {
@@ -52,6 +54,27 @@
   background-color: #cf711f;
 }
 
+
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+
+  display: none;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+
 /**********************/
 /*    HERO SECTION    */
 /**********************/
@@ -60,6 +83,7 @@
   background-color: #fdf2e9;
   padding: 4.8rem 0 9.6rem 0;
 }
+
 .hero {
   max-width: 130rem;
   margin: 0 auto;
@@ -514,7 +538,6 @@
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
 
-
 /**************************/
 /*       FOOTER           */
 /**************************/
@@ -569,9 +592,7 @@
 } */
 .address {
   margin-bottom: 2.4rem;
-
 }
-
 
 .footer-heading {
   font-size: 1.8rem;
