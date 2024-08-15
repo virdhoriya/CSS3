@@ -67,10 +67,6 @@ In CSS, selectors determine which elements the styles apply to. When multiple ru
 
 [UnDraw](https://www.google.com)
 
-## For Compressing Image Size
-
-[Squoosh](https://squoosh.app/)
-
 ## Tools For Icons
 
 [Phosphor icons](https://phosphoricons.com/)
@@ -92,3 +88,7 @@ In CSS, selectors determine which elements the styles apply to. When multiple ru
 ##Additional Tools 
 
 [Uifaces]()
+
+## For Compressing Image Size
+
+[Squoosh](https://squoosh.app/)
